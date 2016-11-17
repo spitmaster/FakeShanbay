@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ClickableSentenceView">
+        <attr name="WordsSize" format="dimension" />
+        <attr name="WordsInterval" format="dimension" />
+        <attr name="WordsColor" format="color" />
+        <attr name="WordsBackgroundColor" format="color" />
+        <attr name="Sentence" format="string" />
+        <attr name="RowInterval" format="dimension" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ATable">
+        <attr name="XaxisNameSize" format="dimension" />
+        <attr name="XaxisNameColor" format="color" />
+        <attr name="YaxisTextColor" format="color" />
+        <attr name="YaxisTextSize" format="dimension" />
+        <attr name="YaxisTextCount" format="integer" />
+        <attr name="CurveColor" format="color" />
+        <attr name="ShadowColor" format="color" />
+        <attr name="PointColor" format="color" />
+        <attr name="PointBorderColor" format="color" />
+        <attr name="GridLineColor" format="color" />
+        <attr name="GridLineStyle" format="enum">
+            <enum name="DASH" value="1" />
+            <enum name="FULL" value="2" />
+            <enum name="NONE" value="0" />
+        </attr>
+        <attr name="YaxisTextInterval" format="dimension" />
+        <attr name="YaxisTableInterval" format="dimension" />
+        <attr name="TableNameInterval" format="dimension" />
+        <attr name="PointRadius" format="dimension" />
+        <attr name="PointBorderWidth" format="dimension" />
+    </declare-styleable>
+</resources>

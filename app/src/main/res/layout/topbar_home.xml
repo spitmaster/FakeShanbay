@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/theme_blue"
+    android:paddingBottom="4dp">
+
+    <com.zhouyijin.zyj.fakeshanbay.customViews.downloadprogressbar.DownLoadProgressBar
+        android:id="@+id/pb_download_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="-20dp"
+        android:text="@string/topbar_home_title"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/iv_topbar_icon_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:src="@drawable/icon_checkin_notification" />
+
+    <ImageButton
+        android:id="@+id/iv_topbar_icon_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_topbar_icon_notification"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/iv_topbar_icon_notification"
+        android:background="#00000000"
+        android:src="@drawable/icon_search_gray" />
+
+</RelativeLayout>

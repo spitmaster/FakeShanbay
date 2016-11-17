@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/tv_withdraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape_brown_border_yellow_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:text="今天不再安排学习    撤销"
+        android:visibility="gone"
+        android:textSize="14sp"
+        android:textColor="@color/brown" />
+    <!--撤销这个单词的完成-->
+
+
+    <TextView
+        android:id="@+id/tv_explore_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_border_white_bg"
+        android:clickable="true"
+        android:drawableEnd="@drawable/horn_with_border"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="test  test"
+        android:textSize="24sp" />
+    <!--点击播放声音-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_border_white_bg"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_explore_chinese_annotation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="中文注解"
+                android:textSize="16sp" />
+            <!--中文的注释-->
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ToggleButton
+                android:id="@+id/tb_english_annotation"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:background="@drawable/selector_english_annotation"
+                android:textOff="英解"
+                android:textOn="英解"
+                android:textColor="@color/shanbayStandard"
+                android:textSize="18sp" />
+            <!--是否显示中文注释的togglebutton-->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_english_annotation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="英文注解"
+            android:textSize="16sp"
+            android:visibility="gone" />
+        <!--默认不显示的英文注释-->
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="例句"
+        android:textSize="18sp" />
+
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/sl_example_sentence_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_border_white_bg"
+        app:clickToClose="true">
+        <!--第一个例句的容器-->
+        <ImageView
+            android:id="@+id/iv_delete_icon_1"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_delete_background"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/trash" />
+        <!--第一个例句的删除按钮-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.zhouyijin.zyj.clickablesentenceview.ClickableSentenceView
+                    android:id="@+id/csv_example_sentence_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="12dp"
+                    app:Sentence="this is a example sentence1" />
+                <!--第一个例句-->
+
+                <TextView
+                    android:id="@+id/tv_example_sentence_chinese_annotation_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="发电公司的风格"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:padding="4dp"
+                android:id="@+id/iv_sentence_draw_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/draw_tag" />
+            <!--第一个例句的handle-->
+        </LinearLayout>
+
+
+    </com.daimajia.swipe.SwipeLayout>
+
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/sl_example_sentence_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_border_white_bg"
+        app:clickToClose="true">
+
+
+        <ImageView
+            android:id="@+id/iv_delete_icon_2"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_delete_background"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/trash" />
+        <!--第二个例句的删除按钮-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.zhouyijin.zyj.clickablesentenceview.ClickableSentenceView
+                    android:id="@+id/csv_example_sentence_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="12dp"
+                    app:Sentence="this is a example sentence1" />
+                <!--第二个例句-->
+
+                <TextView
+                    android:id="@+id/tv_example_sentence_chinese_annotation_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="发电公司的风格"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:padding="4dp"
+                android:id="@+id/iv_sentence_draw_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/draw_tag" />
+            <!--第二个例句handle-->
+        </LinearLayout>
+
+
+    </com.daimajia.swipe.SwipeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_border_white_bg"
+        android:clickable="true"
+        android:drawableLeft="@drawable/note"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="  笔记"
+        android:textSize="18sp" />
+    <!--点击可进入一个activity查看所有用户的笔记-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--显示部分笔记-->
+
+
+</LinearLayout>

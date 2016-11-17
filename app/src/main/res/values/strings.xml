@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FakeShanbay</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="topbar_home_title">山寨单词</string>
+    <string name="remember_words">背单词</string>
+    <string name="progress">进度</string>
+    <string name="dictionaries">词库</string>
+    <string name="expansion">扩展包</string>
+    <string name="check_in_text">打卡天数</string>
+    <string name="daily_sentence_example_english">All we have to decide is what to do with the time that is given us.</string>
+    <string name="daily_sentence_example_chinese">我们所有的抉择都无外乎如何利用手中的时间。</string>
+
+
+    <string name="spelling_mode">拼写模式</string>
+    <string name="hint">按空格键提交</string>
+
+</resources>

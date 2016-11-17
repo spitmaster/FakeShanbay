@@ -1,0 +1,1 @@
+include ':app', ':clickablesentenceview', ':recitewords', ':atable', ':myprogressbar', 'AndroidSwipeLayout', ':volley'

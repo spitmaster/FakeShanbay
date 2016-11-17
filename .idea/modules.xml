@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidSwipeLayout/AndroidSwipeLayout.iml" filepath="$PROJECT_DIR$/AndroidSwipeLayout/AndroidSwipeLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FakeShanbay2.iml" filepath="$PROJECT_DIR$/FakeShanbay2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atable/atable.iml" filepath="$PROJECT_DIR$/atable/atable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clickablesentenceview/clickablesentenceview.iml" filepath="$PROJECT_DIR$/clickablesentenceview/clickablesentenceview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myprogressbar/myprogressbar.iml" filepath="$PROJECT_DIR$/myprogressbar/myprogressbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recitewords/recitewords.iml" filepath="$PROJECT_DIR$/recitewords/recitewords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+    </modules>
+  </component>
+</project>

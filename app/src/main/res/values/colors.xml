@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shanbayStandard">#209e85</color>
+
+    <color name="colorPrimary">#6cc8fb</color>
+    <color name="colorPrimaryDark">#6cc8fb</color>
+    <color name="colorAccent">#2f435b</color>
+
+
+    <color name="background_grey">#e2e2e2</color>
+    <color name="bottom_text_color_unchecked">#8c8c8c</color>
+    <color name="bottom_text_color_checked">#55C5B5</color>
+    <color name="theme_green">#55C5B5</color>
+    <color name="theme_blue">#6cc9fc</color>
+    <color name="theme_blue_lite">#cd9fd9f9</color>
+    <color name="theme_green_lite">#76c9bd</color>
+    <color name="bottom_bar_background">#e9fffd</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="yellow">#efe377</color>
+    <color name="brown">#744409</color>
+
+
+    <color name="delete_icon">#b13c41</color>
+    <color name="delete_icon_pressed">#815556</color>
+    
+    
+    
+    <color name="shared_transparent">#e5000000</color>
+    
+</resources>

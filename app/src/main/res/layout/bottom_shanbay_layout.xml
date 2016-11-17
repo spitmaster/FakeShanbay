@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RadioGroup
+        android:id="@+id/rg_shanbay_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:background="@color/background_grey"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp">
+
+        <RadioButton
+            android:id="@+id/rb_shanbay_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_bottom_shanbay_button_home"
+            android:gravity="center_horizontal"
+            android:text="扇贝单词"
+            android:textColor="@color/selector_bottom_shanbay_text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_shanbay_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_bottom_shanbay_button_group"
+            android:gravity="center_horizontal"
+            android:text="扇贝社区"
+            android:textColor="@color/selector_bottom_shanbay_text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_shanbay_mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_bottom_shanbay_button_mine"
+            android:gravity="center_horizontal"
+            android:text="我的扇贝"
+            android:textColor="@color/selector_bottom_shanbay_text_color" />
+
+    </RadioGroup>
+
+</merge>

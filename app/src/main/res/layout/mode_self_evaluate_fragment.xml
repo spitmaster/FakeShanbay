@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_grey"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_self_evaluating_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_border_white_bg"
+        android:clickable="true"
+        android:drawableEnd="@drawable/horn_with_border"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="test  test"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tv_too_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape_border_white_bg"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="太简单"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_english_annotation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/theme_blue_lite"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="english_sentence"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_chinese_annotation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/theme_blue_lite"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="chinese_annotation"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_known"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_border"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_known"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/selector_known"
+            android:clickable="true"
+            android:paddingBottom="8dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="8dp"
+            android:text="认识"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_unknown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/selector_unknown"
+            android:clickable="true"
+            android:paddingBottom="8dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="8dp"
+            android:text="不认识"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_details"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_check_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/shanbayStandard"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="查看详细"
+            android:textColor="#ffffff" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

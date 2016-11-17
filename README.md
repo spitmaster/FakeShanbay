@@ -1,0 +1,80 @@
+## 简历
+
+### 应聘人:周亿进
+### 应聘岗位:Android开发
+
+**我仿造了半个扇贝单词,实现了部分功能,是照着iOS的客户端做的**
+
+- ![shanbay](http://img0.ph.126.net/wHLi7q-cFnf0eHURlPdlNw==/6632074918350140421.png)
+- 
+
+**仿造了里面一些主要的功能** 
+
+![image](http://img1.ph.126.net/L1-WdsOEsJpphCvXqOCQRg==/6631775851190489812.gif)
+
+
+![image](http://img2.ph.126.net/4BudupNyqWI52myCm0Gacg==/6631453694283553256.gif)
+
+
+![image](http://img0.ph.126.net/h_3j0oeVDXKU4rUsslHBFg==/6631520764492842234.gif)
+
+![image](http://img1.ph.126.net/MSvEcWDroV0zwT_UjBa1_Q==/6632159580745480471.gif)
+
+![image](http://img2.ph.126.net/PaUDDKIv6mFuZur4VEX_4g==/6631846219931564813.gif)
+> 
+> 这里学习计划是我随便找来的两千多个单词
+> 
+> 查词和例句用的就是扇贝的api
+> 
+> 包括发音也是(只有图片..听不到声音,声音还是不错的用的soundpool)
+> 
+> 每日一句用的是金山词霸的api
+> 
+> 我尽量都把联网下载下来的内容放入了数据库
+> 
+> 以免频繁下载,网络连接用的是Volley
+> 
+> 自定义了一些View. 还有很多很多功能我没空去做了,因为我现在正值退伍,事比较多没能去完成
+
+----------
+#### 我十月底在机缘巧合之下看到扇贝公司的招聘信息，招聘的岗位有Android开发，正好我学了一段时间安卓，所以我想试试。
+
+## 但是我有个致命的问题就是我没有工作经验也没有项目经验。于是我想能不能把扇贝单词仿造一个，提升下自己的卖价。
+
+### 由于我还在部队里服役，年底才能退伍回来，但是我又不想错失过这个机会，怕你们早早的招到人了,我决定利用课余时间来仿造。花了十几天的时间我的山寨单词0.1出炉了，就是上面图片看到的内容。
+
+### 这个项目主要用的mvp模式写的,按照设计模式的六大原则设计的.我对有些地方还不是很满意
+
+具体代码已经放在了github中，里面有些控件是我自己写的,虽然还有很多bug，但用起来和扇贝单词的感觉区别不大。最大的遗憾就是功能没做全,主要时间不太够,最近事太多
+
+---
+个人信息简介
+---
+本人大专学历,现在还在部队,12月1日退伍
+
+编程和Android完全是自学,前后自学了两年,第二年开始才学的Android
+
+扇贝粉,打卡430多天(现在用得少了光背单词效率比较低了)
+
+我知道我的条件可能还达不到你们的标准
+
+就算达不到条件，我也希望能以实习生的身份进去公司锻炼下。
+
+招聘条件里还提到了rxjava有加分，虽然现在我没用过，但是我会现在开始学习,如果你们半个月后还没有找到合适的人选，可以考虑考虑半个月后有rxjava加分的我。
+
+谢谢！
+
+
+
+
+----------
+
+I wanna thank you for reading my resume, I'm longing for join with you.
+
+I don't want miss this chance. It would be a great oppertunity for me that I can study and learn with you. If you choice me I won't let you down, I'll do my best on the work to develop better apps.
+
+My specialty and language ability may not sufficient to your recruitment, but my learning ability is surpass most people.
+
+Choice me! you won't regret it.
+
+Thank you very much.

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="单词总数"
+            android:textColor="@color/bottom_text_color_unchecked"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_home_progress_total_words"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:src="@drawable/main_screen_divider" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="已掌握/简单词"
+            android:textColor="@color/bottom_text_color_unchecked"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_home_progress_mastered_words"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:src="@drawable/main_screen_divider" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="正在学习"
+            android:textColor="@color/bottom_text_color_unchecked"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_home_progress_proceeding_words"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:src="@drawable/main_screen_divider" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="新词"
+            android:textColor="@color/bottom_text_color_unchecked"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_home_progress_new_words"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

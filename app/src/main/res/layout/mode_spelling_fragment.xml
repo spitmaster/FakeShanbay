@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_grey"
+    android:orientation="vertical">
+
+    <!--这个是拼写界面-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_border_white_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_word_explanation_cn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_border_white_bg"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="4dp"
+            android:textSize="16sp" />
+        <!--显示单词的英文释义-->
+
+
+        <com.zhouyijin.zyj.recitewords.ReciteWords
+            android:id="@+id/rw_contentwords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="4dp" />
+        <!--在这个view里填入拼写单词-->
+
+        <TextView
+            android:id="@+id/tv_sentence_explanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <!--拼写界面下面的提示内容-->
+
+        <TextView
+            android:id="@+id/tv_spelling_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint"
+            android:textColor="@color/bottom_text_color_unchecked" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_spelling_mode_hint_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableRight="@drawable/icon_start"
+            android:gravity="center_vertical"
+            android:text="提示"
+            android:textColor="@color/shanbayStandard" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
