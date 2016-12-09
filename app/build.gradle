@@ -11,6 +11,14 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+//    signingConfigs{
+//        debug{
+//            storeFile file("C:\\Users\\Administrator\\.android\\asd")
+//            storePassword "asd123456"
+//            keyAlias "asd"
+//            keyPassword "asd123456"
+//        }
+//    }
     buildTypes {
         release {
             minifyEnabled false
@@ -19,6 +27,9 @@ android {
     }
     productFlavors {
     }
+
+
+
 }
 
 
@@ -39,4 +50,5 @@ dependencies {
     compile 'com.android.volley:volley:1.0.0'
     compile project(':atable')
     compile project(':myprogressbar')
+    compile files('libs/libammsdk.jar')
 }

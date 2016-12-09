@@ -38,7 +38,11 @@
         <activity
             android:name=".activity.sharepictureactivity.SharePicActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".wxapi.WXEntryActivity"
+            android:launchMode="singleTop"
+            android:exported="true"/>
 
     </application>
 

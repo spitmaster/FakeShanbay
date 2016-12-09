@@ -14,6 +14,7 @@ import com.zhouyijin.zyj.fakeshanbay.queryword.queryword.QueryWordIMP;
 import com.zhouyijin.zyj.fakeshanbay.sharedpreferencesmanager.SharedPreferencesManager;
 import com.zhouyijin.zyj.fakeshanbay.pronunciation.Pronunciation;
 import com.zhouyijin.zyj.fakeshanbay.pronunciation.WordPronunciation;
+import com.zhouyijin.zyj.fakeshanbay.wechat.WeChatModule;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,6 +30,9 @@ import java.util.concurrent.Executors;
  */
 
 public class MyApplication extends Application {
+
+    private static final String APP_ID = "wx91faa7904aa35143";
+
 
     private static Executor executor;
 
@@ -54,6 +58,7 @@ public class MyApplication extends Application {
         queryWord = QueryWordIMP.getInstance();
         sentenceManager = SentenceManagerImp.getInstance();
         pronunciation = WordPronunciation.getInstance();
+        WeChatModule.getInstance().registerWeChat(this);
 
         //如果是第一次启动,那么获取一下新的单词计划,不然没词可学啊
         if (SharedPreferencesManager.getInstance().isFirstUseAPP()) {

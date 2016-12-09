@@ -1,20 +1,27 @@
 package com.zhouyijin.zyj.fakeshanbay.activity.sharepictureactivity;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.daimajia.swipe.SwipeLayout;
+import com.tencent.mm.sdk.modelbase.BaseReq;
+import com.tencent.mm.sdk.modelbase.BaseResp;
+import com.tencent.mm.sdk.openapi.IWXAPIEventHandler;
 import com.zhouyijin.zyj.fakeshanbay.BaseActivity;
 import com.zhouyijin.zyj.fakeshanbay.Beans.DailySentenceBean;
 import com.zhouyijin.zyj.fakeshanbay.MyApplication;
@@ -22,6 +29,7 @@ import com.zhouyijin.zyj.fakeshanbay.R;
 import com.zhouyijin.zyj.fakeshanbay.dailysentence.DailySentence;
 import com.zhouyijin.zyj.fakeshanbay.network.NetworkConnection;
 import com.zhouyijin.zyj.fakeshanbay.tools.DateLine;
+import com.zhouyijin.zyj.fakeshanbay.wechat.WeChatModule;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -65,6 +73,7 @@ public class SharePicActivity extends BaseActivity implements View.OnClickListen
         initView();
         getSharedPic();
         getSentence();
+
     }
 
     private void getSentence() {
@@ -108,10 +117,10 @@ public class SharePicActivity extends BaseActivity implements View.OnClickListen
                 sl_share_pic.toggle();
                 break;
             case R.id.ib_back:
-                finish();
+
                 break;
             case R.id.ib_share_picture:
-
+                WeChatModule.getInstance().sharePicByFile(picFile, "test" + System.currentTimeMillis());
                 break;
             case R.id.fl_draw_container:
                 sl_share_pic.toggle();
@@ -161,5 +170,18 @@ public class SharePicActivity extends BaseActivity implements View.OnClickListen
                 });
             }
         });
+    }
+
+    public static final String TAG = "WeChatModule";
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+
+        Log.d(TAG, "onActivityResult: requestCode = " + Integer.toHexString(requestCode));
+        Log.d(TAG, "onActivityResult: resultCode = " + (resultCode == resultCode ? "RESULT_OK" : "result bad"));
+        Log.d(TAG, "onActivityResult: data = " + data.getAction());
+        Log.d(TAG, "onActivityResult: data = " + data.getPackage());
     }
 }

@@ -45,8 +45,10 @@
 
 ### 这个项目主要用的mvp模式写的,按照设计模式的六大原则设计的.我对有些地方还不是很满意
 
+
 具体代码已经放在了github中，里面有些控件是我自己写的,虽然还有很多bug，但用起来和扇贝单词的感觉区别不大。最大的遗憾就是功能没做全,主要时间不太够,最近事太多
 
+this is project github address : [https://github.com/spitmaster/FakeShanbay](https://github.com/spitmaster/FakeShanbay)
 ---
 个人信息简介
 ---
@@ -64,8 +66,7 @@
 
 谢谢！
 
-
-
+我的联系电话:17768100899
 
 ----------
 
@@ -78,3 +79,5 @@ My specialty and language ability may not sufficient to your recruitment, but my
 Choice me! you won't regret it.
 
 Thank you very much.
+
+
