@@ -67,7 +67,7 @@ I wanna thank you for reading my resume, I'm longing for join with you.
 
 I don't want miss this chance. It would be a great oppertunity for me that I can study and learn with you. If you choice me I won't let you down, I'll do my best on the work to develop better apps.
 
-My specialty and language ability may not sufficient to your recruitment, but my learning ability surpass most people.
+My specialty and language ability may not sufficient to your recruitment, but my learning ability surpass most people's.
 
 Choice me! you won't regret it.
 
