@@ -96,7 +96,9 @@ public class FragmentMainHome extends Fragment implements View.OnClickListener {
         tabLayout.setTabTextColors(getResources().getColor(R.color.theme_blue),
                 getResources().getColor(R.color.theme_blue));
         tabLayout.setSelectedTabIndicatorColor(getResources().getColor(R.color.theme_blue));
-        tabLayout.setTabMode(TabLayout.MODE_FIXED);
+        tabLayout.setTabMode(TabLayout.MODE_FIXED); //表示固定住不能滑动, TabLayout.MODE_SCROLLABLE表示可以滑动
+
+
     }
 
 
