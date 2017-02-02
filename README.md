@@ -1,7 +1,4 @@
-## 简历
-
-### 应聘人:周亿进
-### 应聘岗位:Android开发
+### 作者:周亿进
 
 **我仿造了半个扇贝单词,实现了部分功能,是照着iOS的客户端做的**
 
@@ -47,30 +44,12 @@ this is project github address : [https://github.com/spitmaster/FakeShanbay](htt
 ---
 个人信息简介
 ---
-本人大专学历,现在还在部队,12月1日退伍
+本人2016年12月1日退伍
 
 编程和Android完全是自学,前后自学了两年,第二年开始才学的Android
 
 扇贝粉,打卡430多天(现在用得少了光背单词效率比较低了)
 
-我知道我的条件可能还达不到你们的标准
-
-就算达不到条件，我也希望能以实习生的身份进去公司锻炼下。
-
-谢谢！
-
 我的联系电话:17768100899
 
 ----------
-
-I wanna thank you for reading my resume, I'm longing for join with you.
-
-I don't want miss this chance. It would be a great oppertunity for me that I can study and learn with you. If you choice me I won't let you down, I'll do my best on the work to develop better apps.
-
-My specialty and language ability may not sufficient to your recruitment, but my learning ability surpass most people's.
-
-Choice me! you won't regret it.
-
-Thank you very much.
-
-
